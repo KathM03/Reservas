@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RESERVACIONES.DTO;
@@ -12,7 +6,7 @@ using RESERVACIONES.Models;
 
 namespace RESERVACIONES.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UsuariosController : ControllerBase
     {
@@ -121,12 +115,7 @@ namespace RESERVACIONES.Controllers
             usuarioExistente.Nombre = usuarioDto.Nombre ?? usuarioExistente.Nombre;
             usuarioExistente.Apellido = usuarioDto.Apellido ?? usuarioExistente.Apellido;
 
-
-            if (!string.IsNullOrEmpty(usuarioDto.Contraseña))
-            {
-                var passwordHasher = new PasswordHasher<Usuario>();
-                usuarioExistente.Contraseña = passwordHasher.HashPassword(usuarioExistente, usuarioDto.Contraseña);
-            }
+            usuarioExistente.Contraseña = usuarioDto.Contraseña ?? usuarioDto.Contraseña;
 
             usuarioExistente.Email = usuarioDto.Email ?? usuarioExistente.Email;
             usuarioExistente.Rol = usuarioDto.Rol ?? usuarioExistente.Rol;
@@ -182,14 +171,11 @@ namespace RESERVACIONES.Controllers
                     Nombre = usuarioDto.Nombre,
                     Apellido = usuarioDto.Apellido,
                     Email = usuarioDto.Email,
+                    Contraseña = usuarioDto.Contraseña,
                     Rol = usuarioDto.Rol,
                     Estado = "A"
                 };
-                if (!string.IsNullOrEmpty(usuarioDto.Contraseña))
-                {
-                    var passwordHasher = new PasswordHasher<Usuario>();
-                    usuario.Contraseña = passwordHasher.HashPassword(usuario, usuarioDto.Contraseña);
-                }
+
 
                 _context.Usuarios.Add(usuario);
                 await _context.SaveChangesAsync();

@@ -10,7 +10,7 @@ using RESERVACIONES.Models;
 
 namespace RESERVACIONES.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ReservasController : ControllerBase
     {
@@ -143,7 +143,8 @@ namespace RESERVACIONES.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, new
                 {
                     success = false,
-                    message = "Error al actualizar la reserva."
+                    message = "Error al actualizar la reserva.",
+                    error = ex.Message
                 });
             }
 
@@ -195,6 +196,7 @@ namespace RESERVACIONES.Controllers
                     FFin = (DateTime)reservaDto.FFin,
                     TipoEstancia = reservaDto.TipoEstancia,
                     Descuento = 0,
+                    Total = reservaDto.Total,
                     Estado = "A"
                 };
                 _context.Reservas.Add(reserva);

@@ -5,6 +5,7 @@ using Microsoft.OpenApi.Models;
 using RESERVACIONES.Models;
 using System.Text;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ReservasDbContext>(
@@ -56,16 +57,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
             ClockSkew = TimeSpan.Zero
         };
-        options.Events = new JwtBearerEvents
-        {
-            OnForbidden = async context =>
-            {
-                context.Response.StatusCode = StatusCodes.Status403Forbidden;
-                context.Response.ContentType = "application/json";
-                await context.Response.WriteAsync("{\"success\": false, \"message\": \"Acceso Denegado. No tienes los permisos necesarios.\"}");
-            }
 
-        };
+        //options.Events = new JwtBearerEvents
+        //{
+        //    OnForbidden = async context =>
+        //    {
+        //        context.Response.StatusCode = StatusCodes.Status403Forbidden;
+        //        context.Response.ContentType = "application/json";
+        //        await context.Response.WriteAsync("{\"success\": false, \"message\": \"Acceso Denegado. No tienes los permisos necesarios.\"}");
+        //    }
+
+        //};
     });
 
 builder.Services.AddAuthorization(options =>

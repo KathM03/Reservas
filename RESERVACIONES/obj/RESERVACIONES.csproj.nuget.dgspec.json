@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj": {}
+    "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\RESERVACIONES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj": {
+    "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\RESERVACIONES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj",
+        "projectUniqueName": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\RESERVACIONES.csproj",
         "projectName": "RESERVACIONES",
-        "projectPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj",
-        "packagesPath": "C:\\Users\\HELEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\obj\\",
+        "projectPath": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\RESERVACIONES.csproj",
+        "packagesPath": "C:\\Users\\temporal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HELEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\temporal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

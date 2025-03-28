@@ -1,0 +1,35 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Login</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+<body>
+	<div class="row mt-5">
+		<div class=" col-sm-4 offset-sm-4">
+			<div class="text-center">
+				<h2 class="display-2">LOGIN</h2>
+			</div>
+			<form action="@Url.Action("Login", "Login")" method="post">
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Correo</label>
+					<input type="email" name="Email" class="form-control input-user" placeholder="Email">
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputPassword1" class="form-label">Contraseña</label>
+					<input type="password" name="Contraseña" class="form-control input-user" placeholder="Contraseña">
+				</div>
+				<button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+			</form>
+		</div>
+	</div>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

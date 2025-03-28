@@ -1,8 +1,34 @@
 [
   {
     "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
+    "Method": "GetFacturacion",
+    "RelativePath": "api/Facturacions/GetFacturacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RESERVACIONES.Models.Facturacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
     "Method": "GetFacturacions",
-    "RelativePath": "api/Facturacions",
+    "RelativePath": "api/Facturacions/GetFacturacions",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,40 +48,14 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
     "Method": "PostFacturacion",
-    "RelativePath": "api/Facturacions",
+    "RelativePath": "api/Facturacions/PostFacturacion",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "facturacion",
-        "Type": "RESERVACIONES.Models.Facturacion",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RESERVACIONES.Models.Facturacion",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
-    "Method": "GetFacturacion",
-    "RelativePath": "api/Facturacions/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "facturacionDto",
+        "Type": "RESERVACIONES.DTO.FacturacionDTO",
         "IsRequired": true
       }
     ],
@@ -74,7 +74,7 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
     "Method": "PutFacturacion",
-    "RelativePath": "api/Facturacions/{id}",
+    "RelativePath": "api/Facturacions/PutFacturacion/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -85,24 +85,8 @@
         "IsRequired": true
       },
       {
-        "Name": "facturacion",
-        "Type": "RESERVACIONES.Models.Facturacion",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.FacturacionsController",
-    "Method": "DeleteFacturacion",
-    "RelativePath": "api/Facturacions/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "facturacionDto",
+        "Type": "RESERVACIONES.DTO.FacturacionDTO",
         "IsRequired": true
       }
     ],
@@ -111,7 +95,7 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.LoginController",
     "Method": "Login",
-    "RelativePath": "api/Login/login",
+    "RelativePath": "api/Login/Login/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -126,8 +110,50 @@
   },
   {
     "ContainingType": "RESERVACIONES.Controllers.ReservasController",
+    "Method": "DeleteReserva",
+    "RelativePath": "api/Reservas/DeleteReserva/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RESERVACIONES.Controllers.ReservasController",
+    "Method": "GetReserva",
+    "RelativePath": "api/Reservas/GetReserva/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RESERVACIONES.Models.Reserva",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RESERVACIONES.Controllers.ReservasController",
     "Method": "GetReservas",
-    "RelativePath": "api/Reservas",
+    "RelativePath": "api/Reservas/GetReservas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -147,7 +173,7 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.ReservasController",
     "Method": "PostReserva",
-    "RelativePath": "api/Reservas",
+    "RelativePath": "api/Reservas/PostReserva",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -155,32 +181,6 @@
       {
         "Name": "reservaDto",
         "Type": "RESERVACIONES.DTO.ReservaDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RESERVACIONES.Models.Reserva",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.ReservasController",
-    "Method": "GetReserva",
-    "RelativePath": "api/Reservas/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -199,7 +199,7 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.ReservasController",
     "Method": "PutReserva",
-    "RelativePath": "api/Reservas/{id}",
+    "RelativePath": "api/Reservas/PutReserva/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -218,118 +218,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RESERVACIONES.Controllers.ReservasController",
-    "Method": "DeleteReserva",
-    "RelativePath": "api/Reservas/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UnidadesController",
-    "Method": "GetUnidades",
-    "RelativePath": "api/Unidades",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[RESERVACIONES.Models.Unidade, RESERVACIONES, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UnidadesController",
-    "Method": "PostUnidade",
-    "RelativePath": "api/Unidades",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "unidade",
-        "Type": "RESERVACIONES.Models.Unidade",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RESERVACIONES.Models.Unidade",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UnidadesController",
-    "Method": "GetUnidade",
-    "RelativePath": "api/Unidades/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RESERVACIONES.Models.Unidade",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UnidadesController",
-    "Method": "PutUnidade",
-    "RelativePath": "api/Unidades/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "unidade",
-        "Type": "RESERVACIONES.Models.Unidade",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UnidadesController",
-    "Method": "DeleteUnidade",
-    "RelativePath": "api/Unidades/{id}",
+    "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "api/Usuarios/DeleteUsuario/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -344,8 +235,34 @@
   },
   {
     "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
+    "Method": "GetUsuario",
+    "RelativePath": "api/Usuarios/GetUsuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RESERVACIONES.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
     "Method": "GetUsuarios",
-    "RelativePath": "api/Usuarios",
+    "RelativePath": "api/Usuarios/GetUsuarios",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -365,7 +282,7 @@
   {
     "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
     "Method": "PostUsuario",
-    "RelativePath": "api/Usuarios",
+    "RelativePath": "api/Usuarios/PostUsuario",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -390,34 +307,8 @@
   },
   {
     "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
-    "Method": "GetUsuario",
-    "RelativePath": "api/Usuarios/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RESERVACIONES.Models.Usuario",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
     "Method": "PutUsuario",
-    "RelativePath": "api/Usuarios/{id}",
+    "RelativePath": "api/Usuarios/PutUsuario/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -430,22 +321,6 @@
       {
         "Name": "usuarioDto",
         "Type": "RESERVACIONES.DTO.UsuarioDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "RESERVACIONES.Controllers.UsuariosController",
-    "Method": "DeleteUsuario",
-    "RelativePath": "api/Usuarios/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

@@ -9,9 +9,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
+
 namespace RESERVACIONES.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
@@ -33,7 +34,7 @@ namespace RESERVACIONES.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .Where(u => u.Email == loginDto.Email)
+                .Where(e => e.Email == loginDto.Email)
                 .FirstOrDefaultAsync();
 
             if (usuario == null)
@@ -41,15 +42,16 @@ namespace RESERVACIONES.Controllers
                 return Unauthorized("Credenciales Incorrectas.");
             }
 
-            var passwordHasher = new PasswordHasher<Usuario>();
-            var result = passwordHasher.VerifyHashedPassword(usuario, usuario.Contraseña, loginDto.Contraseña);
+            var contraseña = await _context.Usuarios
+                .Where(e => e.Contraseña == loginDto.Contraseña)
+                .FirstOrDefaultAsync();
 
-            if (result == PasswordVerificationResult.Failed)
+            if (contraseña == null)
             {
                 return Unauthorized("Credenciales Incorrectas.");
             }
 
-            var rol = await _context.Usuarios.Where(u => u.Email == loginDto.Email).Select(u => u.Rol).FirstOrDefaultAsync();
+            var rol = await _context.Usuarios.Where(e => e.Email == loginDto.Email).Select(e => e.Rol).FirstOrDefaultAsync();
 
             var claims = new List<Claim>
                 {

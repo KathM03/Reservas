@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Facturacions": {
+    "/api/Facturacions/GetFacturacions": {
       "get": {
         "tags": [
           "Facturacions"
@@ -41,55 +41,9 @@
             }
           }
         }
-      },
-      "post": {
-        "tags": [
-          "Facturacions"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Facturacion"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Facturacion"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Facturacion"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Facturacion"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Facturacion"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Facturacion"
-                }
-              }
-            }
-          }
-        }
       }
     },
-    "/api/Facturacions/{id}": {
+    "/api/Facturacions/GetFacturacion/{id}": {
       "get": {
         "tags": [
           "Facturacions"
@@ -127,7 +81,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Facturacions/PutFacturacion/{id}": {
       "put": {
         "tags": [
           "Facturacions"
@@ -147,17 +103,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Facturacion"
+                "$ref": "#/components/schemas/FacturacionDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Facturacion"
+                "$ref": "#/components/schemas/FacturacionDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Facturacion"
+                "$ref": "#/components/schemas/FacturacionDTO"
               }
             }
           }
@@ -167,30 +123,57 @@
             "description": "Success"
           }
         }
-      },
-      "delete": {
+      }
+    },
+    "/api/Facturacions/PostFacturacion": {
+      "post": {
         "tags": [
           "Facturacions"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FacturacionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FacturacionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FacturacionDTO"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Facturacion"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Facturacion"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Facturacion"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/api/Login/login": {
+    "/api/Login/Login/login": {
       "post": {
         "tags": [
           "Login"
@@ -221,7 +204,7 @@
         }
       }
     },
-    "/api/Reservas": {
+    "/api/Reservas/GetReservas": {
       "get": {
         "tags": [
           "Reservas"
@@ -257,7 +240,91 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Reservas/GetReserva/{id}": {
+      "get": {
+        "tags": [
+          "Reservas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reserva"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reserva"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Reserva"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Reservas/PutReserva/{id}": {
+      "put": {
+        "tags": [
+          "Reservas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Reservas/PostReserva": {
       "post": {
         "tags": [
           "Reservas"
@@ -305,85 +372,7 @@
         }
       }
     },
-    "/api/Reservas/{id}": {
-      "get": {
-        "tags": [
-          "Reservas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Reserva"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Reservas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservaDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservaDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ReservaDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
+    "/api/Reservas/DeleteReserva/{id}": {
       "delete": {
         "tags": [
           "Reservas"
@@ -406,192 +395,7 @@
         }
       }
     },
-    "/api/Unidades": {
-      "get": {
-        "tags": [
-          "Unidades"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Unidade"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Unidade"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Unidade"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Unidades"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Unidades/{id}": {
-      "get": {
-        "tags": [
-          "Unidades"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Unidade"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Unidades"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Unidade"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Unidades"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      }
-    },
-    "/api/Usuarios": {
+    "/api/Usuarios/GetUsuarios": {
       "get": {
         "tags": [
           "Usuarios"
@@ -627,7 +431,91 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Usuarios/GetUsuario/{id}": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Usuario"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Usuarios/PutUsuario/{id}": {
+      "put": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/PostUsuario": {
       "post": {
         "tags": [
           "Usuarios"
@@ -675,85 +563,7 @@
         }
       }
     },
-    "/api/Usuarios/{id}": {
-      "get": {
-        "tags": [
-          "Usuarios"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Usuario"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Usuario"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Usuario"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Usuarios"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UsuarioDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
+    "/api/Usuarios/DeleteUsuario/{id}": {
       "delete": {
         "tags": [
           "Usuarios"
@@ -780,9 +590,6 @@
   "components": {
     "schemas": {
       "Facturacion": {
-        "required": [
-          "idReserva"
-        ],
         "type": "object",
         "properties": {
           "idFact": {
@@ -793,6 +600,42 @@
             "pattern": "^[0-9]+$",
             "type": "integer",
             "format": "int32"
+          },
+          "total": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "estado": {
+            "maxLength": 50,
+            "minLength": 3,
+            "pattern": "^[a-zA-Z ]+$",
+            "type": "string",
+            "nullable": true
+          },
+          "idReservaNavigation": {
+            "$ref": "#/components/schemas/Reserva"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacturacionDTO": {
+        "type": "object",
+        "properties": {
+          "idFact": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idReserva": {
+            "pattern": "^[0-9]+$",
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           },
           "total": {
             "type": "number",
@@ -935,39 +778,6 @@
           "estado": {
             "pattern": "^[a-zA-Z ]+$",
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Unidade": {
-        "required": [
-          "nombreUnidad",
-          "tipo"
-        ],
-        "type": "object",
-        "properties": {
-          "idUnidad": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nombreUnidad": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "tipo": {
-            "minLength": 1,
-            "pattern": "^[a-zA-Z ]+$",
-            "type": "string"
-          },
-          "estado": {
-            "pattern": "^[a-zA-Z ]+$",
-            "type": "string",
-            "nullable": true
-          },
-          "precioHora": {
-            "type": "number",
-            "format": "double",
             "nullable": true
           }
         },

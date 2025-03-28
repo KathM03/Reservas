@@ -10,7 +10,7 @@ using RESERVACIONES.Models;
 namespace RESERVACIONES.Controllers
 {
     [ApiExplorerSettings(IgnoreApi = true)]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UnidadesController : ControllerBase
     {
