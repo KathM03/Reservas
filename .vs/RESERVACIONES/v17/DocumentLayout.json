@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\facturacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\facturacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\dto\\facturaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\facturaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\models\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\facturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\models\\unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\models\\reservasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\reservasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\dto\\unidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\unidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\unidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\unidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\reservaciones\\reservaciones\\reservaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\reservaciones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacturacionsController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\FacturacionsController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\FacturacionsController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\FacturacionsController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\FacturacionsController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:26:05.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAHUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:25:12.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Reserva.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:05:08.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T02:49:44.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacturacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\FacturacionDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\FacturacionDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\FacturacionDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\FacturacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:01:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:51:26.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:23:27.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:01:31.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Facturacion.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Facturacion.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\Facturacion.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Facturacion.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\Facturacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:05:05.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Usuario.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\Usuario.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:59:05.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Unidade.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Unidade.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\Unidade.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\Unidade.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\Unidade.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:04:19.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T03:01:20.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnidadeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\UnidadeDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\UnidadeDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\DTO\\UnidadeDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\UnidadeDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:01:47.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\UnidadesController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\UnidadesController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\UnidadesController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\UnidadesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:24:15.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Program.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Program.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Program.cs",
+              "RelativeToolTip": "RESERVACIONES\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:21:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\WeatherForecast.cs",
+              "RelativeToolTip": "RESERVACIONES\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:37:09.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAApwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:54:32.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\appsettings.json",
+              "RelativeDocumentMoniker": "RESERVACIONES\\appsettings.json",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\appsettings.json",
+              "RelativeToolTip": "RESERVACIONES\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T19:46:39.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RESERVACIONES\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T19:55:19.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RESERVACIONES",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj",
+              "RelativeDocumentMoniker": "RESERVACIONES\\RESERVACIONES.csproj",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\RESERVACIONES\\RESERVACIONES\\RESERVACIONES.csproj",
+              "RelativeToolTip": "RESERVACIONES\\RESERVACIONES.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T19:55:41.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
