@@ -13,7 +13,6 @@ namespace RESERVACIONES.Controllers
         private readonly ReservasDbContext _context;
         private static readonly HashSet<string> RolesPermitidos = new() { "RECEPCIONISTA", "CLIENTE", "GERENTE" };
 
-
         public UsuariosController(ReservasDbContext context)
         {
             _context = context;
@@ -141,7 +140,7 @@ namespace RESERVACIONES.Controllers
             });
         }
 
-        [Authorize(Roles = "CLIENTE, RECEPCIONISTA")]
+        [Authorize(Policy = "RecepcionistaOnly")]
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario([FromBody] UsuarioDTO usuarioDto)
         {

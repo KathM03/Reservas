@@ -37,7 +37,7 @@ namespace RESERVACIONES.Controllers
 
             if (usuario == null)
             {
-                return Unauthorized("Credenciales Incorrectas.");
+                return Unauthorized("Email Incorrecto.");
             }
 
             var clave = await _context.Usuarios
@@ -46,7 +46,7 @@ namespace RESERVACIONES.Controllers
 
             if (clave == null)
             {
-                return Unauthorized("Credenciales Incorrectas.");
+                return Unauthorized("Contraseña Incorrecta.");
             }
 
             var rol = await _context.Usuarios.Where(e => e.Email == loginDto.Email).Select(e => e.Rol).FirstOrDefaultAsync();
@@ -57,7 +57,7 @@ namespace RESERVACIONES.Controllers
                 new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
                 new Claim("FullName", $"{usuario.Nombre} {usuario.Apellido}"),
                 new Claim("JoinDate", DateTime.Now.ToString("yyyy-MM-dd")),
-                new Claim(ClaimTypes.Role, rol)
+                new Claim("role", string.Join(",", rol))
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

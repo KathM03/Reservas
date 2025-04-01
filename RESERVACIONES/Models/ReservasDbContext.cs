@@ -34,7 +34,7 @@ public partial class ReservasDbContext : DbContext
     {
         modelBuilder.Entity<Facturacion>(entity =>
         {
-            entity.HasKey(e => e.IdFact).HasName("PK__Facturac__66E1409E697CE6B5");
+            entity.HasKey(e => e.IdFact).HasName("PK__Facturac__66E1409EEB88FC4C");
 
             entity.ToTable("Facturacion");
 
@@ -58,7 +58,7 @@ public partial class ReservasDbContext : DbContext
 
         modelBuilder.Entity<Reserva>(entity =>
         {
-            entity.HasKey(e => e.IdReserva).HasName("PK__Reservas__423CBE5DAAB447C8");
+            entity.HasKey(e => e.IdReserva).HasName("PK__Reservas__423CBE5DCB07EA72");
 
             entity.Property(e => e.IdReserva).HasColumnName("id_reserva");
             entity.Property(e => e.Descuento)
@@ -97,7 +97,7 @@ public partial class ReservasDbContext : DbContext
 
         modelBuilder.Entity<Unidade>(entity =>
         {
-            entity.HasKey(e => e.IdUnidad).HasName("PK__Unidades__95D7C92B0C5A9CCC");
+            entity.HasKey(e => e.IdUnidad).HasName("PK__Unidades__95D7C92BDD65C27F");
 
             entity.Property(e => e.IdUnidad).HasColumnName("id_unidad");
             entity.Property(e => e.Estado)
@@ -116,15 +116,14 @@ public partial class ReservasDbContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Usuarios__3213E83FE552E479");
+            entity.HasKey(e => e.Id).HasName("PK__Usuarios__3213E83FD22C81A0");
 
-            entity.HasIndex(e => e.Email, "UQ__Usuarios__AB6E61640094DEFA").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Usuarios__AB6E61647F547CE2").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Apellido)
                 .HasMaxLength(100)
                 .HasColumnName("apellido");
-            entity.Property(e => e.Psswd).HasColumnName("psswd");
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .HasColumnName("email");
@@ -137,6 +136,7 @@ public partial class ReservasDbContext : DbContext
             entity.Property(e => e.Nombre)
                 .HasMaxLength(100)
                 .HasColumnName("nombre");
+            entity.Property(e => e.Psswd).HasColumnName("psswd");
             entity.Property(e => e.Rol)
                 .HasMaxLength(100)
                 .HasColumnName("rol");

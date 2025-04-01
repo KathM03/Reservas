@@ -63,6 +63,14 @@ namespace MVC_RESERVACIONES.Controllers
 
                 Console.WriteLine($"JSON enviado: {data}");
                 StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+
+                var token = HttpContext.Session.GetString("LoginToken");
+
+                if (!string.IsNullOrEmpty(token))
+                {
+                    _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                }
+
                 HttpResponseMessage response =  _client.PostAsync(_client.BaseAddress + "/Usuarios/PostUsuario", content).Result;
 
                 if (response.IsSuccessStatusCode)

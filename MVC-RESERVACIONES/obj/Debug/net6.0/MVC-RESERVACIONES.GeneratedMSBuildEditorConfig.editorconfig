@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC_RESERVACIONES
 build_property.RootNamespace = MVC_RESERVACIONES
-build_property.ProjectDir = C:\Users\HELEN\Desktop\Katherine\GITHUB\RESERVAS V2\Reservas\MVC-RESERVACIONES\
+build_property.ProjectDir = C:\Users\temporal\Desktop\Github\ReservasV3\Reservas\MVC-RESERVACIONES\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HELEN\Desktop\Katherine\GITHUB\RESERVAS V2\Reservas\MVC-RESERVACIONES
+build_property.MSBuildProjectDirectory = C:\Users\temporal\Desktop\Github\ReservasV3\Reservas\MVC-RESERVACIONES
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Home/Index.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Home/Privacy.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Login/Login.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Shared/Error.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Usuarios/Create.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Usuarios/Edit.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Usuarios/Index.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/_ViewImports.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/_ViewStart.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HELEN/Desktop/Katherine/GITHUB/RESERVAS V2/Reservas/MVC-RESERVACIONES/Views/Shared/_Layout.cshtml]
+[C:/Users/temporal/Desktop/Github/ReservasV3/Reservas/MVC-RESERVACIONES/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0o4b9murrp
