@@ -124,7 +124,7 @@ public partial class ReservasDbContext : DbContext
             entity.Property(e => e.Apellido)
                 .HasMaxLength(100)
                 .HasColumnName("apellido");
-            entity.Property(e => e.Contraseña).HasColumnName("contraseña");
+            entity.Property(e => e.Psswd).HasColumnName("psswd");
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .HasColumnName("email");

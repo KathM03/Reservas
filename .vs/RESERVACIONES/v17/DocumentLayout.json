@@ -1,46 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\",
+  "WorkspaceRootPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\mvc-reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\mvc-reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\models\\reservasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\models\\reservasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\mvc-reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2265E83-D767-4C0B-8075-8B532142E783}|MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj|solutionrelative:mvc-reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\temporal\\desktop\\github\\reservas\\reservas\\reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\dto\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|c:\\users\\helen\\desktop\\katherine\\github\\reservas v2\\reservas\\reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB31681-932B-4D5D-97A4-D9D40D282D7D}|RESERVACIONES\\RESERVACIONES.csproj|solutionrelative:reservaciones\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,76 +90,197 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "MVC-RESERVACIONES\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ReservasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\ReservasDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T21:04:56.864Z",
+              "WhenOpened": "2025-03-31T18:30:13.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Models\\Usuario.cs",
+              "RelativeToolTip": "RESERVACIONES\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:08:49.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\UsuarioDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:08:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAjwEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:32:21.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAQwJAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:17:14.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T19:16:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Program.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Program.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Program.cs",
+              "RelativeToolTip": "RESERVACIONES\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:41:02.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T15:25:26.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwBYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T16:15:45.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:24:23.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwCUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T16:18:12.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T18:29:50.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "MVC-RESERVACIONES\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:30:04.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\DTO\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\LoginDTO.cs",
               "RelativeToolTip": "RESERVACIONES\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T21:01:10.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T20:51:08.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "RESERVACIONES\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Properties\\launchSettings.json",
-              "RelativeToolTip": "RESERVACIONES\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-28T20:41:20.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\DTO\\ReservaDTO.cs",
-              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\ReservaDTO.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\DTO\\ReservaDTO.cs",
-              "RelativeToolTip": "RESERVACIONES\\DTO\\ReservaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T20:30:12.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\appsettings.json",
               "RelativeDocumentMoniker": "RESERVACIONES\\appsettings.json",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\appsettings.json",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\appsettings.json",
               "RelativeToolTip": "RESERVACIONES\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -132,55 +289,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "RESERVACIONES\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T20:24:23.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Program.cs",
               "RelativeDocumentMoniker": "MVC-RESERVACIONES\\Program.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\Program.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\Program.cs",
               "RelativeToolTip": "MVC-RESERVACIONES\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T20:17:54.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "RESERVACIONES\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwBkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T20:17:14.594Z",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RESERVACIONES\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T20:41:20.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Program.cs",
-              "RelativeDocumentMoniker": "RESERVACIONES\\Program.cs",
-              "ToolTip": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\RESERVACIONES\\Program.cs",
-              "RelativeToolTip": "RESERVACIONES\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAABJAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "RESERVACIONES\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:41:02.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T20:51:08.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReservaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "RelativeDocumentMoniker": "RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "ToolTip": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "RelativeToolTip": "RESERVACIONES\\DTO\\ReservaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:30:12.442Z"
             }
           ]
         }

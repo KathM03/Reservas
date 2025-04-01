@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using RESERVACIONES.DTO;
@@ -42,11 +40,11 @@ namespace RESERVACIONES.Controllers
                 return Unauthorized("Credenciales Incorrectas.");
             }
 
-            var contraseña = await _context.Usuarios
-                .Where(e => e.Contraseña == loginDto.Contraseña)
+            var clave = await _context.Usuarios
+                .Where(e => e.Psswd == loginDto.Psswd)
                 .FirstOrDefaultAsync();
 
-            if (contraseña == null)
+            if (clave == null)
             {
                 return Unauthorized("Credenciales Incorrectas.");
             }

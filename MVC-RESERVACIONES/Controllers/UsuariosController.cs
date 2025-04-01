@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MVC_RESERVACIONES.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Text;
 
 namespace MVC_RESERVACIONES.Controllers
@@ -27,32 +28,52 @@ namespace MVC_RESERVACIONES.Controllers
             {
                 string data = response.Content.ReadAsStringAsync().Result;
 
-                ListaUsuarios = JsonConvert.DeserializeObject<List<UsuarioViewModel>>(data);
+               JObject jsonResponse = JObject.Parse(data);
+
+                JArray usersArray = (JArray)jsonResponse["result"];
+
+                ListaUsuarios = usersArray.ToObject<List<UsuarioViewModel>>();
+
             }
             return View(ListaUsuarios);
         }
 
-        [Authorize(Roles = "Administrador")]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        [Authorize(Roles = "Administrador")]
         [HttpPost]
         public IActionResult Create(UsuarioViewModel model)
         {
             try
             {
-                string data = JsonConvert.SerializeObject(model);
+                var usuarioRequest = new
+                {
+                    Nombre = model.Nombre,
+                    Apellido = model.Apellido,
+                    Email = model.Email,
+                    Psswd = model.Psswd,
+                    Rol = model.Rol,
+                    Estado = string.IsNullOrEmpty(model.Estado) ? "A" : model.Estado
+                };
+
+                string data = JsonConvert.SerializeObject(usuarioRequest);
+
+                Console.WriteLine($"JSON enviado: {data}");
                 StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-                HttpResponseMessage response = _client.PostAsync(_client.BaseAddress + "/Usuarios/PostUsuario", content).Result;
+                HttpResponseMessage response =  _client.PostAsync(_client.BaseAddress + "/Usuarios/PostUsuario", content).Result;
 
                 if (response.IsSuccessStatusCode)
                 {
                     TempData["successMessage"] = "Usuario Creado.";
                     return RedirectToAction("Index");
+                }
+                else
+                {
+                    string error = response.Content.ReadAsStringAsync().Result;
+                    TempData["errorMessage"] = $"Error al crear el usuario: {error}";
                 }
             }
             catch (Exception ex)
@@ -63,7 +84,6 @@ namespace MVC_RESERVACIONES.Controllers
             return View();
         }
 
-        [Authorize(Roles = "Administrador")]
 
         [HttpGet]
         public IActionResult Edit(int id)
@@ -88,8 +108,6 @@ namespace MVC_RESERVACIONES.Controllers
         }
 
 
-        [Authorize(Roles = "Administrador")]
-
         [HttpPost]
         public IActionResult Edit(UsuarioViewModel model)
         {
@@ -113,5 +131,31 @@ namespace MVC_RESERVACIONES.Controllers
                 return View();
             }
         }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                HttpResponseMessage response = _client.DeleteAsync(_client.BaseAddress + "/Usuarios/DeleteUsuario/" + id).Result;
+
+                if (response.IsSuccessStatusCode)
+                {
+                    TempData["successMessage"] = "Usuario Eliminado.";
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    TempData["errorMessage"] = "Error al eliminar el usuario.";
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["errorMessage"] = ex.Message;
+            }
+
+            return RedirectToAction("Index");
+        }
+
     }
 }

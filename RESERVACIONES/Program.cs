@@ -58,24 +58,34 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ClockSkew = TimeSpan.Zero
         };
 
-        //options.Events = new JwtBearerEvents
-        //{
-        //    OnForbidden = async context =>
-        //    {
-        //        context.Response.StatusCode = StatusCodes.Status403Forbidden;
-        //        context.Response.ContentType = "application/json";
-        //        await context.Response.WriteAsync("{\"success\": false, \"message\": \"Acceso Denegado. No tienes los permisos necesarios.\"}");
-        //    }
+        options.Events = new JwtBearerEvents
+        {
+            OnForbidden = async context =>
+            {
+                context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                context.Response.ContentType = "application/json";
+                await context.Response.WriteAsync("{\"success\": false, \"message\": \"Acceso Denegado. No tienes los permisos necesarios.\"}");
+            }
 
-        //};
+        };
     });
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("GerenteOnly", policy => policy.RequireRole("Gerente"));
-    options.AddPolicy("ClienteOnly", policy => policy.RequireRole("Cliente"));
-    options.AddPolicy("RecepcionistaOnly", policy => policy.RequireRole("Recepcionista"));
+    options.AddPolicy("GerenteOnly", policy => policy.RequireRole("GERENTE"));
+    options.AddPolicy("ClienteOnly", policy => policy.RequireRole("CLIENTE"));
+    options.AddPolicy("RecepcionistaOnly", policy => policy.RequireRole("RECEPCIONISTA"));
 });
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
+
 
 var app = builder.Build();
 
@@ -84,6 +94,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

@@ -11,6 +11,6 @@ namespace MVC_RESERVACIONES.Models
 
         [Required]
         [PasswordPropertyText]
-        public string Contraseña { get; set; }
+        public string Psswd { get; set; }
     }
 }

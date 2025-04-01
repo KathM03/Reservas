@@ -29,7 +29,7 @@ namespace MVC_RESERVACIONES.Controllers
             {
                 string data = JsonConvert.SerializeObject(model);
                 StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-                HttpResponseMessage response = _client.PostAsync(_client.BaseAddress + "Login/Login/login", content).Result;
+                HttpResponseMessage response = _client.PostAsync(_client.BaseAddress + "/Login/Login/login", content).Result;
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -38,7 +38,7 @@ namespace MVC_RESERVACIONES.Controllers
 
                     if (tokenResponse != null && tokenResponse.ContainsKey("token"))
                     {
-                        HttpContext.Session.SetString("AuthToken", tokenResponse["token"]);
+                        HttpContext.Session.SetString("LoginToken", tokenResponse["token"]);
                         TempData["successMessage"] = "Inicio de Sesión Exitoso";
 
                         return RedirectToAction("Index", "Usuarios");

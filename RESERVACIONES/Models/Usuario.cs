@@ -24,8 +24,8 @@ public partial class Usuario
     public string Email { get; set; } = null!;
 
     [Required]
-    [MinLength(8, ErrorMessage = "La contraseña debe tener al menos 8 caracteres.")]
-    public string Contraseña { get; set; } = null!;
+    [MinLength(8, ErrorMessage = "La clave debe tener al menos 8 caracteres.")]
+    public string Psswd { get; set; } = null!;
 
     [Required]
     [MinLength(3), MaxLength(50)]

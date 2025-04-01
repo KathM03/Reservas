@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj": {}
+    "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj": {
+    "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj",
+        "projectUniqueName": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj",
         "projectName": "MVC-RESERVACIONES",
-        "projectPath": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj",
-        "packagesPath": "C:\\Users\\temporal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temporal\\Desktop\\Github\\RESERVAS\\Reservas\\MVC-RESERVACIONES\\obj\\",
+        "projectPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\MVC-RESERVACIONES.csproj",
+        "packagesPath": "C:\\Users\\HELEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HELEN\\Desktop\\Katherine\\GITHUB\\RESERVAS V2\\Reservas\\MVC-RESERVACIONES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\temporal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HELEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -11,6 +11,6 @@ namespace RESERVACIONES.DTO
 
         [Required]
         [PasswordPropertyText]
-        public string Contraseña { get; set; }
+        public string Psswd { get; set; }
     }
 }

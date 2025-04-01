@@ -19,7 +19,6 @@ namespace RESERVACIONES.Controllers
             _context = context;
         }
 
-        [Authorize(Policy = "RecepcionistaOnly")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
@@ -114,9 +113,7 @@ namespace RESERVACIONES.Controllers
 
             usuarioExistente.Nombre = usuarioDto.Nombre ?? usuarioExistente.Nombre;
             usuarioExistente.Apellido = usuarioDto.Apellido ?? usuarioExistente.Apellido;
-
-            usuarioExistente.Contraseña = usuarioDto.Contraseña ?? usuarioDto.Contraseña;
-
+            usuarioExistente.Psswd = usuarioDto.Psswd ?? usuarioDto.Psswd;
             usuarioExistente.Email = usuarioDto.Email ?? usuarioExistente.Email;
             usuarioExistente.Rol = usuarioDto.Rol ?? usuarioExistente.Rol;
             usuarioExistente.Estado = usuarioDto.Estado ?? usuarioExistente.Estado;
@@ -144,7 +141,7 @@ namespace RESERVACIONES.Controllers
             });
         }
 
-        [Authorize(Roles = "Cliente, Recepcionista")]
+        [Authorize(Roles = "CLIENTE, RECEPCIONISTA")]
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario([FromBody] UsuarioDTO usuarioDto)
         {
@@ -171,7 +168,7 @@ namespace RESERVACIONES.Controllers
                     Nombre = usuarioDto.Nombre,
                     Apellido = usuarioDto.Apellido,
                     Email = usuarioDto.Email,
-                    Contraseña = usuarioDto.Contraseña,
+                    Psswd = usuarioDto.Psswd,
                     Rol = usuarioDto.Rol,
                     Estado = "A"
                 };

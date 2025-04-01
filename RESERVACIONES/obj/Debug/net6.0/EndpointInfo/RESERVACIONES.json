@@ -659,8 +659,8 @@
       },
       "LoginDTO": {
         "required": [
-          "contraseña",
-          "email"
+          "email",
+          "psswd"
         ],
         "type": "object",
         "properties": {
@@ -669,7 +669,7 @@
             "type": "string",
             "format": "email"
           },
-          "contraseña": {
+          "psswd": {
             "minLength": 1,
             "type": "string"
           }
@@ -786,9 +786,9 @@
       "Usuario": {
         "required": [
           "apellido",
-          "contraseña",
           "email",
           "nombre",
+          "psswd",
           "rol"
         ],
         "type": "object",
@@ -814,7 +814,7 @@
             "type": "string",
             "format": "email"
           },
-          "contraseña": {
+          "psswd": {
             "minLength": 8,
             "type": "string"
           },
@@ -858,7 +858,7 @@
             "format": "email",
             "nullable": true
           },
-          "contraseña": {
+          "psswd": {
             "minLength": 8,
             "type": "string",
             "nullable": true
